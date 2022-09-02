@@ -24,7 +24,7 @@ function toggleMobileMenu(){
 }
 
 function toggleCartMenu(){
-    const menuMobileClose = menuMobile.classList.contains('inactive');
+    const menuMobileClose = menuMobile.classList.contains('inactive'); //pregunta si el menu esta cerrado
     const menuDeskClose = menuDesk.classList.contains('inactive');
     
     if (!menuMobileClose || !menuDeskClose){
