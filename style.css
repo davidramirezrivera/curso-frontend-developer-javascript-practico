@@ -273,10 +273,12 @@
 
   /* -----------------product infomacion------------ */
   .product-detail-container{
+    background-color: var(--white);
     width: 360px;
-    padding-bottom: 24px;
+    box-sizing: border-box;
     position: absolute;
     right: 0;
+    overflow-x: -1;
   }
   .product-detail-close {
     background: var(--white);
